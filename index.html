@@ -10,7 +10,17 @@
 </head>
 
 <body>
-
+    <p><strong>Создать массив чисел [1,2,3,4,5] </strong><br>
+        const a = [1, 2, 3, 4, 5]</p>
+    <p><strong>Умножить каждое число на 3 с помощью map</strong> <br>
+        const b = a.map(value => value * 3) <br>
+        console.log(b)</p>
+    <p><strong>Отфильтровать числа больше 10</strong> <br>
+        const c = b.filter(value => value > 10) <br>
+        console.log(c)</p>
+    <p><strong>Найти сумму всех чисел с помощью reduce</strong> <br>
+        const d = b.reduce((previousValue, currentValue) => previousValue += currentValue) <br>
+        console.log(d)</p>
 </body>
 
 </html>
