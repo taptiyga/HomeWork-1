@@ -8,4 +8,3 @@ const c = b.filter(value => value > 10)
 console.log(c)
 //Найти сумму всех чисел с помощью reduce
 const d = b.reduce((previousValue, currentValue) => previousValue += currentValue)
-console.log(d)
